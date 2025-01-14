@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en"dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com%2Fajax%2Flibs%2Ffont-awesome%2F6.5.2%2Fcss%2Fall.min.css&v=xtK57s6QN28>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
+  <body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in"data-aos-duration="1500">
+                <span>Lara</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up"data-aos-duration="1500"data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up"data-aos-duration="1500"data-aos-delay="200"><a href="#">About</a></div>
+                <div class="link" data-aos="fade-up"data-aos-duration="1500"data-aos-delay="300"><a href="#">Skills</a></div>
+                <div class="link" data-aos="fade-up"data-aos-duration="1500"data-aos-delay="400"><a href="#">Projects</a></div>
+                <div class="link" data-aos="fade-up"data-aos-duration="1500"data-aos-delay="500"><a href="#">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <ul>
+                <div class="links">
+                    <a href="#home">Home</a>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image"data-aos="zoom-out"data-aos-duration="3000">
+                <img src="Main.jpg" alt="">
+            </div>
+            <div class="content">
+                <br></br>
+                <br></br>
+                <h1 data-aos="fade-left" data-aos-duration="1500"data-aos-delay="700">Hey I'm<span> Lara</span></h1>
+                <div class="typewriter"data-aos="fade-right"data-aos-duration="1500"data-aos-delay="900">
+                     <p id="dynamic-text">Developer<span class="cursor">|</span></p></div><p data-aos="flip-down"data-aos-duration="1500"data-aos-delay="1100">I'm a computer science student specializing in software engineering with a passion for secure application development. 
+                    I bring experience in full-stack development, data analysis, and cybersecurity, with hands-on skills in tools like JavaScript, C, and Excel. Driven and detail-oriented, 
+                    I thrive on solving complex problems and building user-friendly solutions.</p> 
+                <div class="social-links">
+                    <a href="#"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1300"><a href="https://github.com/LaraShreim"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1400"><a href="https://www.linkedin.com/in/lara-shreim/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1500"><a href="https://discordapp.com/users/larashreim/"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1600"><a href="https://www.facebook.com/lara.shreim.5/" ><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="button"data-aos="zoom-in"data-aos-duration="1500"data-aos-delay="1800">
+                    <a href="https://drive.google.com/file/d/1vuxn69FhmcHZOazuQJIiPT5wUzGZSM7Q/view?usp=sharing" class="button">
+                    <button>Download Resume</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about"id="about">
+        <div class="content">
+            <div class="title"data-aos="fade-up"data-aos-duration="1500"><span>About</span></div>
+            <div class="about-details">
+                <div class="left"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="200">
+                    <img src="four.jpg"alt="">
+                </div>
+                <div class="right">
+                    <br></br>
+                    <div class="topic"data-aos="fade-left"data-aos-duration="1500"data-aos-delay="200">Developing is my passion</div>
+                    <p data-aos="flip-down"data-aos-duration="1500"data-aos-delay="300">
+                        I've been passionate about creating secure and confidential applications. 
+                        With expertise in full-stack development, I work confidently in Python, Java, and C, leveraging my strong foundation in data structures, algorithms, and software optimization. 
+                        I also have hands-on experience in data analysis, using tools like Excel for advanced functions like VLOOKUP, pivot tables, and analytical modeling to uncover insights. 
+                        Additionally, I'm certified in cybersecurity through Udemy and enjoy implementing secure coding practices to build reliable and safe software solutions.
+                    </p>
+                    <div class="button"data-aos="zoom-in-right"data-aos-duration="1500"data-aos-delay="400">
+                        <a href="https://drive.google.com/file/d/1vuxn69FhmcHZOazuQJIiPT5wUzGZSM7Q/view?usp=sharing" class="button"><button>
+                            Download Resume</button>
+                          </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills"id="skills">
+        <div class="content">
+            <div class="title"data-aos="fade-up"data-aos-duration="1200"><span> Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                   <div class="topic"data-aos="fade-right"data-aos-duration="1200"data-aos-delay="200">Skills Reflects Our Knowledge</div>
+                <p data-aos="fade-right"data-aos-duration="1200"data-aos-delay="400"> I bring a diverse skill set, 
+                    including programming languages like Java, JavaScript, and C, markup languages like HTML and CSS, 
+                    and tools such as React, Git, and MIT App Inventor. I have expertise in data analysis using Excel, 
+                    operating systems like UNIX and Windows, and strong knowledge of data structures, algorithms, and cybersecurity.</p>
+                <div class="experience"data-aos="fade-up"data-aos-duration="1200"data-aos-delay="600">
+                    <div class="num">10</div>
+                    <div class="exp">
+                     Technical </br>
+                        Skills
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic"data-aos="fade-right"data-aos-duration="1200"data-aos-delay="150">C</div>
+                    <div class="per"data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="300">90%</div>
+                </div>
+                <div class="box">
+                    <div class="topic"data-aos="fade-left"data-aos-duration="1200"data-aos-delay="150">HTML</div>
+                    <div class="per"data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="300">60%</div>
+                </div>
+                <div class="box">
+                    <div class="topic"data-aos="fade-right"data-aos-duration="1200"data-aos-delay="450">JavaScript</div>
+                    <div class="per"data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="600">70%</div>
+                </div>
+                <div class="box">
+                    <div class="topic"data-aos="fade-left"data-aos-duration="1200"data-aos-delay="450">CSS</div>
+                    <div class="per"data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="600">60%</div>
+                </div>
+                <div class="box">
+                    <div class="topic"data-aos="fade-right"data-aos-duration="1200"data-aos-delay="750">Python</div>
+                    <div class="per"data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="900">80%</div>
+                </div>
+                <div class="box">
+                    <div class="topic"data-aos="fade-left"data-aos-duration="1200"data-aos-delay="750">UNIX</div>
+                    <div class="per"data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="900">70%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services"id="services">
+    <div class="content">
+        <div class="title"data-aos="fade-up"data-aos-duration="1200"><span> Projects</span></div>
+        <div class="boxes">
+            <div class="box"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="200">
+                <div class="icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <div class="topic">Movie Search App</div>
+                <p>
+                    Developed an interactive app that aids users in selecting movies by genre, improving accessibility to personalized recommendations,
+                    and providing a platform for users to rate and review movies.Utilized MIT App Inventor for a responsive UI and seamless user experience,
+                    integrating app features effectively.(GitHub)
+                </p>
+            </div>
+            <div class="box"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="400">
+                <div class="icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="topic">Web Development:Personal Portfolio</div>
+                <p>
+                    Built a personal website with sections for About Me, Skills, Projects, and Contact, providing a clear and engaging way to showcase my work and expertise,
+                    Added CSS style animations to make the website interactive and visually appealing,Made the design fully responsive to ensure that the website is appealing on desktops,
+                    tablets and smartphones.(GitHub)
+                </p>
+            </div>
+            <div class="box"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="600">
+                <div class="icon">
+                    <i class="fa-solid fa-file"></i>
+                </div>
+                <div class="topic">Data Structures Course</div>
+                <p>
+                    Established a summary form of data structures main topics in series of packages on GitHub for educational and knowledge purposes,
+                    Specified each topic with an example into a single package, topics like: Linked Lists, Queues, Heap, and Sorting with its types.(GitHub)
+                </p>
+            </div>
+            <div class="box"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="800">
+                <div class="icon">
+                    <i class="fa-solid fa-calculator"></i>
+                </div>
+                <div class="topic">Calculator Program</div>
+                <p>
+                    Built a handy calculator program that goes beyond basic math with simple binary operations like addition and multiplication to more advanced calculations like square roots and exponentials,Integrated thorough error handling to catch mistakes, making the app much more user-friendly and reliable.
+                    Focused on creating a clean and intuitive interface that guides users, with error messages to help them understand what went wrong if needed.(Github)
+                </p>
+            </div>
+            <div class="box"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1000">
+                <div class="icon">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <div class="topic">Tic Tac Toe Game</div>
+                <p>
+                    Created a fun, two-player Tic Tac Toe game in C that lets players enjoy a classic 3x3 grid match, with smooth, interactive gameplay.
+                    Built robust input validation to prevent moves in occupied cells, achieving zero errors in invalid move detection during testing, enhancing overall game stability and player experience.
+                    Tested extensively with over 50 cases to make sure everything worked well, including tricky edge cases. Ensured the game was responsive and accurate, handling every situation reliably.(GitHub)
+                </p>
+            </div>
+            <div class="box"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1200">
+                <div class="icon">
+                    <i class="fa-solid fa-file"></i>
+                </div>
+                <div class="topic">Kraft Business Analysis Project</div>
+                <p>
+                    Analyzed Kraft’s distribution networks and geographic reach to evaluate the effectiveness of its market penetration strategies.
+                    Assessed store placement and shelf positioning to optimize product visibility and drive customer engagement in retail settings.
+                    Explored opportunities for expanding Kraft’s presence in e-commerce platforms, emphasizing accessibility and streamlined delivery channels.(GitHub)
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="Contact"id="contact">
+    <div class="content">
+        <br></br>
+        <div class="title"data-aos="fade-up"data-aos-duration="1500"><span>Contact</span></div>
+        <div class="text">
+            <div class="button"data-aos="zoom-in"data-aos-duration="1500"data-aos-delay="400">
+                <div class="social-links">
+                    <a href="#"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1300"><a href="https://github.com/LaraShreim"><i class="fa-brands fa-github"></i></a></a>
+                    <a href="#"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1400"><a href="https://www.linkedin.com/in/lara-shreim/"><i class="fa-brands fa-linkedin"></i></a></a>
+                    <a href="#"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1500"><a href="https://discordapp.com/users/larashreim/"><i class="fa-brands fa-discord"></i></a></a>
+                    <a href="#"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1600"><a href="https://www.facebook.com/lara.shreim.5/" ><i class="fa-brands fa-facebook"></i></a></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer >
+    <div class="Text">
+        <span>Created By <a href="#"> LaraShreim</a>
+            |&#169; 2024 All Rights Reserved</span>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({offset:0});
+</script>
+<script src="script.js"></script>
+
+  </body>
+
+</html>
